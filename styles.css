@@ -1,0 +1,17 @@
+/* css styles */
+body {
+    background-color: aliceblue;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+    /* rounded corners */
+}
+h1 {
+    color: #ffb700;
+}
+
+/*
+h2, h3, blockquote, a, horzontal line? */

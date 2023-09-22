@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "HRAT - ATRH\nMinutes / Compte-rendu",
+    "section": "",
+    "text": "This meeting will be hosted by data group member, Adam Słociński.\n\nVital stats\nFive minute scrum / ask anything\nActivity selection game.\n\nActivity selection game\nThree possible activities can be selected based off two rounds of dice rolls.\n\nThe round table activity is where each team member provides an update to the rest of the team about their tasks. The show the thing activity is a chance for a team member to show their latest work to the team and get constructive feedback. The wild card activity is a chance for the team to choose how to spend the remainder of the meeting time together without a predefined selection.\n\nSee Table 1 for probabilities.\nThe process from your perspective\n\n\n\n\nflowchart TD\n    A(( )) --&gt; B(Open dice roller)\n    B --&gt; C(Roll 1 die) --&gt; D(Provide results to&lt;br&gt;host)\n    D --&gt; E{Did you &lt;br&gt;complete &lt;br&gt;two rounds?}\n    E --&gt; F(No) ---&gt; C\n    E --&gt; G(Yes)\n    G --&gt; H(Tally results) --&gt; I{Was there &lt;br&gt;a tie?} --&gt; J(No) --&gt; L(Proceed with selected activity)\n    I --&gt; K(Yes) --&gt; C\n    L --&gt; M((( )))\n\n\n\n\n\n\n\n\nN.B.: Open Random.Org to roll your virtual dice.\n\n\n\nThe associated dice number and probabilities for various activities.\n\n\nTable 1: Group activity selection results\n\n\nid\nactivity options\ndice no.\nprob.\n\n\n\n\n1\nround table\n1\n17%\n\n\n2\nshow the thing\n2 or 3\n33%\n\n\n3\nwild card\n4, 5 or 6\n50%\n\n\n\n\n\n\n\n\n\n\nTake a moment to reflect on this meeting.\n\nWhat were two things you got out of this meeting?\nWhat was one thing you would not repeat?\nNext host will be asdfasdf on Tuesday, October 10th, 2023."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#monday-september-25-2023",
+    "href": "index.html#monday-september-25-2023",
+    "title": "HRAT - ATRH\nMinutes / Compte-rendu",
+    "section": "",
+    "text": "This meeting will be hosted by data group member, Adam Słociński.\n\nVital stats\nFive minute scrum / ask anything\nActivity selection game.\n\nActivity selection game\nThree possible activities can be selected based off two rounds of dice rolls.\n\nThe round table activity is where each team member provides an update to the rest of the team about their tasks. The show the thing activity is a chance for a team member to show their latest work to the team and get constructive feedback. The wild card activity is a chance for the team to choose how to spend the remainder of the meeting time together without a predefined selection.\n\nSee Table 1 for probabilities.\nThe process from your perspective\n\n\n\n\nflowchart TD\n    A(( )) --&gt; B(Open dice roller)\n    B --&gt; C(Roll 1 die) --&gt; D(Provide results to&lt;br&gt;host)\n    D --&gt; E{Did you &lt;br&gt;complete &lt;br&gt;two rounds?}\n    E --&gt; F(No) ---&gt; C\n    E --&gt; G(Yes)\n    G --&gt; H(Tally results) --&gt; I{Was there &lt;br&gt;a tie?} --&gt; J(No) --&gt; L(Proceed with selected activity)\n    I --&gt; K(Yes) --&gt; C\n    L --&gt; M((( )))\n\n\n\n\n\n\n\n\nN.B.: Open Random.Org to roll your virtual dice.\n\n\n\nThe associated dice number and probabilities for various activities.\n\n\nTable 1: Group activity selection results\n\n\nid\nactivity options\ndice no.\nprob.\n\n\n\n\n1\nround table\n1\n17%\n\n\n2\nshow the thing\n2 or 3\n33%\n\n\n3\nwild card\n4, 5 or 6\n50%\n\n\n\n\n\n\n\n\n\n\nTake a moment to reflect on this meeting.\n\nWhat were two things you got out of this meeting?\nWhat was one thing you would not repeat?\nNext host will be asdfasdf on Tuesday, October 10th, 2023."
+  }
+]
