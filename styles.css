@@ -14,5 +14,13 @@ h1 {
     color: #007bff;
 }
 
+.blockquote {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    background-color: #fffcdd;
+    border-left: 4px dotted #007bff;
+
+}
+
 /*
 h2, h3, blockquote, a, horzontal line? */
