@@ -1,0 +1,14 @@
+---
+title: ":)"
+format: html
+theme: yeti
+---
+
+| CV.
+| Writing examples.
+| Data visualization.
+| Micro blog/roll.
+| 
+>| *Coming soon.*
+
+
