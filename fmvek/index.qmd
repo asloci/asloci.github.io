@@ -4,7 +4,7 @@ subtitle: "Research Methodology and Scientific Writing, Spring 2024"
 author: "Adam M. Słociński"
 embed-resources: true
 date-modified: "February 7, 2024"
-theme: zephyr
+theme: cosmos
 toc: true
 number-sections: true
 reference-location: margin
