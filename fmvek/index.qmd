@@ -1,0 +1,38 @@
+---
+title: "Benchmarking e-government efficiency"
+subtitle: "Research Methodology and Scientific Writing, Spring 2024"
+author: "Adam M. Słociński"
+embed-resources: true
+date-modified: "February 7, 2024"
+theme: zephyr
+toc: true
+number-sections: true
+reference-location: margin
+citation-location: margin
+format: 
+  html: 
+    code-fold: true
+---
+## Abstract
+## Introduction
+### Background
+### Research problem
+### Aim and research question
+### Delimitations of study
+### Use of ChatGPT (or not)
+## Method
+### Research strategy
+### Data collection method
+### Sampling
+### Data analysis method
+### Research ethics
+## Results
+### Data collection and analysis
+### Findings
+## Discussion
+### Analysis of the results
+### Future research
+### Conclusion
+## References
+## Appendices
+
