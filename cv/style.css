@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px; /* Base font size */
+}
+
+h1 {
+    font-size: 4.375rem; /* 70pt */
+    color: red; /* Red color */
+}
+
+h2 {
+    font-size: 1.875rem; /* 30pt */
+    color: #ff0000; /* Red color */
+}
+
+h3 {
+    font-size: 1.25rem; /* 20pt */
+    color: red; /* Red color */
+}
+
+h4, ul, li {
+    font-size: 1rem; /* 16pt */
+    color: black; /* Black color */
+}
+
+
+/* Body styles */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Updated font-family */
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Column margin styles */
+.column-margin a {
+    /* Reset styles here */
+    color: inherit; /* or any other style you want to reset */
+    text-decoration: underline; /* if you want to remove underline */
+}
+
+.column-margin a:hover {
+    /* Reset hover styles */
+    color: inherit; /* or any other style you want to reset */
+}
+
+.column-margin a::after {
+    /* Reset after styles */
+    content: none; /* or any other style you want to reset */
+}
+
+/* Style for all <a> elements */
+
+a {
+    position: relative; /* Position relative to allow absolute positioning of the pseudo-element */
+    color: #000; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5em 0; /* Add vertical padding for better spacing */
+}
+
+/* Change link color on hover */
+a:hover {
+    color: black; /* Set hover color to black */
+}
+
+/* Pseudo-element for the yellow background */
+a::after {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position it absolutely within the <a> */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    bottom: 0; /* Align to the bottom */
+    height: 50%; /* Set height to half of the text */
+    background-color: #FFFE01; /* Yellow background color */
+    z-index: -1; /* Place it behind the text */
+    transition: background-color 0.3s ease; /* Optional: smooth transition for hover effects */
+}
+
+/* Optional: Change background color on hover */
+a:hover::after {
+    height: 100%;
+    background-color: #FFFE01; /* Change to a different color on hover */
+}
