@@ -10,22 +10,22 @@ html {
 
 h1 {
     font-size: 4.375rem; /* 70pt */
-    color: red; /* Red color */
+    color: #1A237E; /* Red color */
 }
 
 h2 {
     font-size: 1.875rem; /* 30pt */
-    color: #ff0000; /* Red color */
+    color: #1A237E; /* Red color */
 }
 
 h3 {
     font-size: 1.25rem; /* 20pt */
-    color: red; /* Red color */
+    color: #1A237E; /* Red color */
 }
 
 h4, ul, li {
     font-size: 1rem; /* 16pt */
-    color: black; /* Black color */
+    color: #333333; /* Black color */
 }
 
 
@@ -33,8 +33,8 @@ h4, ul, li {
 body {
     font-family: Arial, Helvetica, sans-serif; /* Updated font-family */
     line-height: 1.5;
-    background-color: #fff;
-    color: #000;
+    background-color: #F8F6F4;
+    color: #333333;
 }
 
 /* Column margin styles */
@@ -54,11 +54,16 @@ body {
     content: none; /* or any other style you want to reset */
 }
 
+blockquote {
+    background-color: #f2f2f2;
+    border-left: 4px solid #E64A19;  /* Thick, solid line with specific color */
+}
+
 /* Style for all <a> elements */
 
 a {
     position: relative; /* Position relative to allow absolute positioning of the pseudo-element */
-    color: #000; /* Text color */
+    color: #E64A19; /* Text color */
     text-decoration: none; /* Remove underline */
     padding: 0.5em 0; /* Add vertical padding for better spacing */
 }
@@ -75,8 +80,9 @@ a::after {
     left: 0; /* Align to the left */
     right: 0; /* Align to the right */
     bottom: 0; /* Align to the bottom */
-    height: 50%; /* Set height to half of the text */
-    background-color: #FFFE01; /* Yellow background color */
+    height: 100%; /* Set height to half of the text */
+    color: #E64A19;
+    /* background-color: #E64A19; /* Yellow background color */
     z-index: -1; /* Place it behind the text */
     transition: background-color 0.3s ease; /* Optional: smooth transition for hover effects */
 }
@@ -84,5 +90,6 @@ a::after {
 /* Optional: Change background color on hover */
 a:hover::after {
     height: 100%;
-    background-color: #FFFE01; /* Change to a different color on hover */
+    color: #E64A19;
+    /* background-color: #E64A19; /* Change to a different color on hover */
 }

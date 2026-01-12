@@ -1,0 +1,114 @@
+---
+title: "ADAM M. SŁOCIŃSKI, B.A. (Hons), M.Sc.*"
+subtitle: Research/Data Analyst | Ottawa, Canada
+execute:
+  echo: false
+title-block-style: default
+title-block-banner: white
+title-block-banner-color: "#1A237E"
+
+date: last-modified
+
+tbl-colwidths: [70,30]
+format: 
+    html:
+        css: style.css
+        theme: default
+        toc: true
+        #toc-title: "Sections:"
+        toc-location: right
+        embed-resources: true
+        code-fold: true
+        anchor-sections: true
+    
+---
+
+## PROFILE
+
+> Citizenship: Polish & Canadian  
+> Languages: English (Native), French (Intermediate), Polish (Intermediate), Indonesian (Beginner)
+
+[Data engineering specialist]{.mark} combining technical expertise with strategic communication to support evidence-based decision-making in complex government environments. Experienced in end-to-end data workflows—from gathering and analyzing disparate sources to delivering actionable insights through Python, Power BI, and open-source technologies. Rapid career progression from student to acting senior analyst within three years, now working with enterprise-scale datasets spanning millions of records across the Canadian public service. [Brings unique perspective]{.mark} bridging conflict studies background with data science, currently researching fair AI pre-processing implementations at the graduate level. [Agile problem-solver]{.mark} who rapidly acquires emerging technologies, including AI-assisted development tools, to meet evolving organizational priorities.
+
+## EXPERIENCE
+
+> **Acting Senior Analyst**  
+> *Office of the Chief Human Resources Officer*  
+> **Treasury Board of Canada Secretariat, Government of Canada**  
+> *September 2025 — March 2027* | *Ottawa, Canada*  
+
+Senior contributor to critical enterprise-wide HR-to-Pay reporting initiatives, addressing systemic challenges across the Canadian federal public service. Analyzes and synthesizes datasets spanning millions of employee records across all government departments to identify patterns in HR timeliness and Pay Centre backlog issues.  
+
+**Key responsibilities and achievements:**  
+
+* Leads implementation of Parquet, DuckDB, Git and other innovative open-source data engineering solutions to replace legacy (Excel) workflow, improving data processing efficiency and transparency
+* Delivers rapid strategic briefings and decision notes for senior executive leadership, translating complex technical findings into actionable recommendations
+* Applies design science research methodologies to iteratively improve reporting frameworks and analytical approaches
+
+> **Data Analyst**  
+> *Human Resources Division*  
+> **Treasury Board of Canada Secretariat, Government of Canada**  
+> *May 2022 — August 2025* | *Ottawa, Canada*
+
+Contributed to all stages of data-driven HR analytics projects supporting departmental decision-making. Developed expertise in Power BI dashboard development, Python scripting for data transformation, and web technologies for report publication.  
+
+**Key responsibilities and achievements:**  
+
+* Built and maintained Power BI dashboards analyzing departmental HR datasets (thousands of records), tracking metrics on staffing, hybrid work compliance and workforce demographics
+* Troubleshot and optimized ETL processes while developing comprehensive technical documentation to ensure knowledge transfer and process sustainability
+* Collaborated with cross-functional teams (HR policy, IT, senior management) to translate business requirements into accessible, bilingual solutions meeting WCAG 2.0 standards
+* Recognized with TBS Employee Recognition Award (June 2024) for supporting HRIS transition to MyGCHR platform
+
+> **Student Analyst**  
+> *Various Divisions*  
+> **Government of Canada**  
+> *May 2020 — April 2022* | *Ottawa, Canada*
+
+**Key contributions:**  
+
+* Created WCAG 2.0 compliant documents and presentations for executive-level stakeholder meetings
+* Performed exploratory data analysis on HR and operational datasets to support evidence-based recommendations
+* Developed communications strategies for internal engagement and change management initiatives
+* Conducted literature reviews, environmental scans, and research synthesis for policy development
+
+
+> **Research Assistant**  
+> *Jean-Léon Allie Library and Archives*  
+> **Saint Paul University**  
+> *March 2020 — March 2021* | *Ottawa, Canada*
+
+Supported library modernization initiative by conducting environmental scan of 100+ university websites and reviewing 60+ academic papers on research data management best practices. Developed evidence-based recommendations for library leadership on new research aids.
+
+
+## EDUCATION
+
+**Master of Science in Computer and Systems Sciences**  
+**Stockholm University**  
+*August 2023 — June 2026 | Stockholm, Sweden*  
+
+[Thesis: Fair AI Preparation Using Super-diversity](https://asloci.github.io/su/seminar/#/title-slide)
+
+**Honours Bachelor of Arts in Conflict Studies**  
+**University of Ottawa & Saint Paul University**  
+*May 2018 — December 2021* | *Ottawa, Canada*  
+
+## TECHNICAL SKILLS
+
+**Data Visualization:** Power BI, Quarto, Altair  
+**Data Analysis & Engineering:** Python (Polars, Marimo, Chuk-LLM), SQL, DuckDB  
+**Development Tools:** Git, UV, AI-assisted development (Ollama, Claude, Antigravity)  
+**Web Technology Standards:** HTML, CSS, WCAG 2  
+**Methodologies:** Design Science Research, Agile
+
+## AWARDS AND RECOGNITION
+
+**TBS Talent Mobility Tool** *(2024-2025)* - Selected as ready for advancement
+**Magna cum laude distinction** *(2022)* - Honours bachelor's degree
+
+## CONNECT
+
+[Email](mailto:fbbgqh51@duck.com?subject=Hello)  
+~~HuggingFace~~  
+~~LinkedIn~~  
+~~Xing~~  
+

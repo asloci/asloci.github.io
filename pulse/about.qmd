@@ -1,19 +1,156 @@
 ---
-title: "About"
-image: profile.jpg
-about:
-  template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+title: "Słociński, Adam M."
+subtitle: "B.A. (Hons), M.Sc.*"
+
+page-layout: article
+
+execute:
+  echo: false
+title-block-style: manuscript
+title-block-banner: red
+title-block-banner-color: white
+
+keywords:
+- "Fair AI"
+- "Machine Learning"
+- "Ethics of Technology"
+- "Information Society"
+
+tbl-colwidths: auto
+format: 
+    html:
+        theme: default
+        # mainfont: sans-serif 
+        # fontsize: 1.0em
+        # fontcolor: black
+        # linkcolor: "#ffcb2f"
+        # linestretch: 1.5
+        # backgroundcolor: white
+        toc: false
+        toc-title: Contents
+        toc-location: right
+        embed-resources: true
+        code-fold: true
+        anchor-sections: false
 
 ---
+# ABOUT
 
-About this blog
+RESEARCHER | DEVELOPER
+
+As a researcher, I explore the intersection of technology, ethics, and social science, with a particular focus on the responsible application of machine learning across diverse contexts. My work focuses on developing open, accessible, and automated reporting systems for public sector organizations. I am passionate about ensuring that technology serves the public good and enhances transparency and accountability. Through my research and development efforts, I aim to contribute to a future where technology and ethics coexist harmoniously, fostering innovation that is both responsible and inclusive.
+
+<!-- ## SKILLS SUMMARY
+
+## LANGUAGE PROFICIENCY
+
+:::{.callout-note appearance="simple"}
+Culturally adept
+:::
+
+```{python}
+#| label: fig-languages
+#| fig-cap: "Languages sorted by proficiency, highest to lowest"
+
+import altair as alt
+import pandas as pd
+
+# Data with updated strength values
+data = {
+    'languages': ['English', 'French', 'Polish', 'Indonesian'],
+    'strength': [4, 3, 2.5, 1]  # Updated values
+}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Sort the DataFrame by 'strength' in descending order
+df = df.sort_values(by='strength', ascending=True)
+
+# Create the Altair chart
+chart = alt.Chart(df).mark_bar(
+    color='navy',
+    size=20  # Adjust bar height
+).encode(
+    x=alt.X('strength:Q', 
+            title=None,  # Remove x-axis title
+            scale=alt.Scale(domain=[0, max(df['strength']) * 1.1])  # Add some padding
+    ),
+    y=alt.Y('languages:N', 
+            title=None,  # Remove y-axis title
+            sort='-x'  # Sort in descending order
+    ),
+    tooltip=['languages', 'strength']
+).properties(
+    width=640,  # Width in pixels
+    height=180  # Height in pixels
+).configure_view(
+    strokeWidth=0  # Remove chart border
+)
+
+# Display the chart
+chart
+
+``` -->
+
+## EDUCATION
+
+:::{.callout-note appearance="simple"}
+Political science and digital government background
+:::
+
+[Stockholm University](https://www.su.se/english/){alt="Stockholm Univesrity" target="_blank"} | [Stockholm, Sweden](https://www.openstreetmap.org/?mlat=59.3293&mlon=18.0686#map=12/59.3293/18.0686){alt="Stockholm, Sweden" target="_blank"}
+M.Sc. Computer and Systems Sciences (Open eGovernment programme) | August 2023 --- June 2025 
+
+University of Ottawa & Saint Paul University | [Ottawa, Canada](https://www.openstreetmap.org/?mlat=45.4215&mlon=-75.6972#map=12/45.4215/-75.6972){alt="Ottawa, Canada" target="_blank"}
+Honours B.A. in Conflict Studies | May 2018 --- December 2021
+
+## EXPERIENCE
+
+:::{.callout-note appearance="simple"}
+Research-oriented, report developer, championing accessibility
+:::
+
+A/ Senior Analyst, Office of the Chief Human Resources Officer (Digital Solutions), Treasury Board of Canada Secretariat | [Ottawa, Canada](https://www.openstreetmap.org/?mlat=45.4215&mlon=-75.6972#map=12/45.4215/-75.6972){alt="Ottawa, Canada"} 
+Government of Canada | September 2025 --- Present
+
+Data Analyst, Human Resources Divison, Treasury Board of Canada Secretariat | [Ottawa, Canada](https://www.openstreetmap.org/?mlat=45.4215&mlon=-75.6972#map=12/45.4215/-75.6972){alt="Ottawa, Canada"} 
+Government of Canada | May 2022 --- August 2025
+
+Federal Student Work Experience Programme Participant | [Ottawa, Canada](https://www.openstreetmap.org/?mlat=45.4215&mlon=-75.6972#map=12/45.4215/-75.6972){alt="Ottawa, Canada"}
+Government of Canada | May 2020 --- April 2022
+
+Research Assistant, Jean-Léon Allie Library and Archives | [Ottawa, Canada](https://www.openstreetmap.org/?mlat=45.4215&mlon=-75.6972#map=12/45.4215/-75.6972){alt="Ottawa, Canada"}
+Saint Paul University | March 2020 --- March 2021  
+
+
+# TODO
+
+Create a scatterplot or chart for the skills summary
+
+Link to actual PDF/CV somewhere
+
+Create persona--researcher/developer behind Wiara Analytics or Open, Automated, Accessible Custom Reports.. (Accessibility Champion)
+
+<!-- ## SKILLS SUMMARY
+
+**Research and Analysis**:
+
+Extensive experience gathering, analyzing, and synthesizing quantitative and qualitative data from diverse sources while leveraging research methodologies to provide actionable recommendations to clients and decision-makers.
+
+**Initiative and Solution Engineering**: 
+
+[Skilled]() at planning, monitoring, interpreting complex information, identifying options, and presenting recommendations in multi-stakeholder projects.
+
+**Digital and Data Savvy**: 
+
+Practical and graduate-level experience leveraging data to support executive-level briefings and advance projects in fast-paced, multidisciplinary environments.
+
+**Teamwork and Leadership**: 
+
+Thrives in [agile](), client-centric settings as an active contributor, critical technical and morale-boosting team member, and leader.
+
+**Growth Mindset**: 
+
+Embraces challenges, persists through setbacks, and orients feedback to continually improve and learn as an [analyst](). -->
+

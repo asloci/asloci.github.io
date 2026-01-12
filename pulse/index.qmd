@@ -1,14 +1,69 @@
 ---
-title: "pulse"
+title: "Pulse"
+# subtitle: "Exploring ethics-driven artificial intelligence and machine learning approaches for a responsible information society."
+title-block-style: default
+title-block-banner: white
+title-block-banner-color: black
+page-layout: article
+
 listing:
+  id: signals
+
+  exclude:
+    title: ["Post With Code", "Welcome To My Blog"]
+  
+  type: table
   contents: posts
   sort: "date desc"
-  type: default
-  categories: true
+  fields: [date, title, description, categories]
+  field-display-names: 
+    description: "Post"
+    categories: "Type"
+
+  date-format: short
+  max-description-length: 99
+  table-hover: true
+  categories: false
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
+
+# format: 
+#     html:
+#         theme: default
+#         # mainfont: sans-serif 
+#         # fontsize: 1.0em
+#         # fontcolor: black
+#         # linkcolor: "#ffcb2f"
+#         # linestretch: 1.5
+#         # backgroundcolor: white
+#         toc: false
+#         toc-title: Contents
+#         toc-location: right
+#         embed-resources: true
+#         code-fold: true
+#         anchor-sections: false
+      
 ---
 
+<!-- 
+EMOJI	DESCRIPTION
+🐊	Rant
+📝	Note
+📈	Data
+📡	Announcement 
+-->
 
+## Updates
+
+::: {#signals}
+:::
+
+## Socials
+
+[Resume](https://asloci.github.io/cv/){alt="Curriculum Vitae" target="_blank"}  
+[Email](mailto:fbbgqh51@duck.com){alt="Email contact" target="_blank"}  
+
+
+## 
+
+[Impressum](about.html){alt="Impressum" target="_blank"}
